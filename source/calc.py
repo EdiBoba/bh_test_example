@@ -1,12 +1,18 @@
 import time
 
 
-def add(a, b):
-    return a + b
+def add(first, second):
+    """
+
+    :param first:
+    :param second:
+    :return:
+    """
+    return first + second
 
 
-def sub(a, b):
-    return a - b
+def sub(first, second):
+    return first - second
 
 
 def mul(a, b):

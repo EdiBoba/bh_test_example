@@ -1,11 +1,11 @@
 import unittest
 from unittest.mock import patch
 
-import calc
+from source import calc
 
 
 class CalcBasicTests(unittest.TestCase):
-    @patch('calc.some')
+    @patch('source.calc.some')
     def test_add(self, mock_obj):
         mock_obj.return_value = 1
         assert mock_obj() == 1
